@@ -60,22 +60,6 @@ module.exports = {
 };
 ```
 
-### Step 3: Import the Library into GrapesJS
-
-Import and use the library in your main file where GrapesJS is configured:
-
-```javascript
-import grapesjs from 'grapesjs';
-import grapeJsDaisyUi from 'grape-js-daisy-ui';
-
-const editor = grapesjs.init({
-  container: '#gjs',
-  plugins: [grapeJsDaisyUi],
-  pluginsOpts: {
-    grapeJsDaisyUi: {}, // Additional configuration if needed
-  },
-});
-```
 
 ## Usage
 
