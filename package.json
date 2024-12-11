@@ -1,0 +1,38 @@
+{
+  "name": "grape-js-daisy-ui",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "srhafid",
+  "license": "MIT",
+  "description": "A library that integrates DaisyUI components directly into GrapesJS, enabling easy design and customization of user interfaces using Tailwind CSS with the 'dy-' prefix.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srhafid/grape-js-daisy-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/srhafid/grapejs-tailwind-ui-components/issues"
+  },
+  "dependencies": {
+    "typescript": "^5.7.2"
+  },
+  "homepage": "https://github.com/srhafid/grape-js-daisy-ui.git#readme",
+  "keywords": [
+    "grapesjs",
+    "daisyui",
+    "tailwindcss",
+    "ui-components",
+    "frontend",
+    "drag-and-drop",
+    "web-design",
+    "grapesjs-plugin",
+    "javascript",
+    "css",
+    "tailwind-ui",
+    "dy-prefix",
+    "user-interface",
+    "visual-editor"
+  ]
+}
