@@ -19,15 +19,17 @@ Base configuration example:
 
 ```javascript
 import grapesjs from "grapesjs";
-import grapesJsTailwindUiComponents from
- 'grapesjs-tailwind-ui-components';
 import { daisyUI } from "./blocksElements/daisyUI";
+import { grapeJsTailwindSupport, grapesJsTailwindUiComponents } from 'grapesjs-tailwind-ui-components';
 
-const editor = grapesjs.init("#gjs");
+const editor = grapesjs.init(
+  "#gjs",
+  plugins: [
+      grapeJsTailwindSupport // support by tailwind css
+    ]
+);
 
-const components = [...daisyUI];
-
-grapesJsTailwindUiComponents(editor, components);
+grapesJsTailwindUiComponents(editor, [daisyUI]);
 ```
 
 ### Step 1: Install the Library
