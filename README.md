@@ -20,7 +20,7 @@ Base configuration example:
 ```javascript
 import grapesjs from "grapesjs";
 import { daisyUI } from "./blocksElements/daisyUI";
-import { grapeJsTailwindSupport, grapesJsTailwindUiComponents } from 'grapesjs-tailwind-ui-components';
+import { grapeJsTailwindSupport, grapeJsTailwindUiComponents } from 'grapesjs-tailwind-ui-components';
 
 const editor = grapesjs.init(
   "#gjs",
@@ -29,7 +29,7 @@ const editor = grapesjs.init(
     ]
 );
 
-grapesJsTailwindUiComponents(editor, daisyUI);
+grapeJsTailwindUiComponents(editor, daisyUI);
 ```
 
 ### Step 1: Install the Library
