@@ -29,7 +29,7 @@ const editor = grapesjs.init(
     ]
 );
 
-grapesJsTailwindUiComponents(editor, [daisyUI]);
+grapesJsTailwindUiComponents(editor, daisyUI);
 ```
 
 ### Step 1: Install the Library
@@ -47,8 +47,7 @@ Ensure that TailwindCSS is configured in your project and that DaisyUI is includ
 ```javascript
 module.exports = {
   content: [
-    './src/**/*.{html,js}',
-    './node_modules/grape-js-daisy-ui/**/*.js',
+    './src/**/*.{html,js,tsx,ts}',
   ],
   theme: {
     extend: {},
