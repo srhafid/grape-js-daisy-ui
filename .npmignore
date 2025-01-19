@@ -1,5 +1,6 @@
 src/icons/
 node_modules/
+src/
 .git/
 .vscode/
 *.log
